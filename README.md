@@ -221,10 +221,11 @@ All SDK code is **ES5&#8209;compatible** and works without a transpiler.
 
 ```
 sdk/v1/
-&#9500;&#9472;&#9472; vril.css      &#8212; full stylesheet (24 KB)        &#8212; tokens, components, CrystalWindow
-&#9500;&#9472;&#9472; vril.min.css  &#8212; minified stylesheet (15 KB / 4 KB gz)
-&#9500;&#9472;&#9472; vril.js       &#8212; full SDK (16 KB)              &#8212; CrystalWindow engine, ES5
-&#9492;&#9472;&#9472; vril.min.js   &#8212; minified SDK (6 KB / 2 KB gz)
+├── vril.css      — full stylesheet (24 KB)        — tokens, components, CrystalWindow
+├── vril.min.css  — minified stylesheet (15 KB / 4 KB gz)
+├── vril.js       — full SDK (16 KB)               — CrystalWindow engine, ES5
+└── vril.min.js   — minified SDK (6 KB / 2 KB gz)
+
 ```
 
 **Zero dependencies.** No build step. No framework. Drop two files into a `<head>` and you&apos;re done.
