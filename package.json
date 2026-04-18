@@ -1,0 +1,56 @@
+{
+  "name": "@vrillabs/sdk",
+  "version": "1.0.0",
+  "description": "The official VRIL LABS Web SDK — CrystalWindow Visor HUD, design tokens, and component library for sovereign post-quantum web experiences.",
+  "main": "sdk/v1/vril.min.js",
+  "style": "sdk/v1/vril.min.css",
+  "files": [
+    "sdk/v1/vril.css",
+    "sdk/v1/vril.js",
+    "sdk/v1/vril.min.css",
+    "sdk/v1/vril.min.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "default": "./sdk/v1/vril.min.js"
+    },
+    "./css": "./sdk/v1/vril.min.css",
+    "./css/full": "./sdk/v1/vril.css",
+    "./js": "./sdk/v1/vril.min.js",
+    "./js/full": "./sdk/v1/vril.js"
+  },
+  "keywords": [
+    "vril",
+    "vril-labs",
+    "web-sdk",
+    "crystalwindow",
+    "visor-hud",
+    "modal",
+    "glassmorphism",
+    "design-tokens",
+    "post-quantum",
+    "ui-components",
+    "vanilla-js",
+    "zero-dependencies"
+  ],
+  "homepage": "https://vril.li/web-sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VrilLabs/web-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VrilLabs/web-sdk/issues"
+  },
+  "author": "VRIL LABS <hello@vril.li> (https://vril.li)",
+  "license": "MIT",
+  "sideEffects": [
+    "*.css",
+    "sdk/v1/vril.js",
+    "sdk/v1/vril.min.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

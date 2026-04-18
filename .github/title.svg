@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 220" width="1280" height="220" role="img" aria-label="VRIL LABS Web SDK">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=JetBrains+Mono:wght@500&display=swap');
+      .t-main {
+        font-family: 'Syne', 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 800;
+        font-size: 124px;
+        letter-spacing: -0.04em;
+        fill: url(#g-main);
+      }
+      .t-sub {
+        font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+        font-weight: 500;
+        font-size: 22px;
+        letter-spacing: 0.34em;
+        fill: #7a8aa8;
+        text-transform: uppercase;
+      }
+      .t-bolt {
+        fill: #00FFC8;
+        font-size: 96px;
+      }
+    ]]></style>
+    <linearGradient id="g-main" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#00FFC8"/>
+      <stop offset="55%" stop-color="#0A84FF"/>
+      <stop offset="100%" stop-color="#9B5EFF"/>
+    </linearGradient>
+    <linearGradient id="g-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00FFC8" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#00FFC8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#9B5EFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="220" fill="#080a0e"/>
+  <rect x="0" y="0" width="1280" height="1.5" fill="url(#g-rule)"/>
+
+  <text x="640" y="138" text-anchor="middle" class="t-main">VRIL LABS · WEB SDK</text>
+  <text x="640" y="186" text-anchor="middle" class="t-sub">CrystalWindow &#8729; Visor HUD &#8729; Sovereign Components</text>
+
+  <rect x="0" y="218" width="1280" height="2" fill="url(#g-rule)"/>
+</svg>
